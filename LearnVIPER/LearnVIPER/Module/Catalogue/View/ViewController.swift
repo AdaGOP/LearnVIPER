@@ -11,6 +11,15 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var catalogueTable: UITableView!
     
+    /*
+    lazy var presenter: ViewControllerPresenterProtocol? = {
+       return nil
+    }()
+    lazy var catalogueModel: ViewControllerModel? = {
+        return nil
+    }()
+    */
+    
     var presenter: ViewControllerPresenterProtocol?
     var catalogueModel: ViewControllerModel?
     

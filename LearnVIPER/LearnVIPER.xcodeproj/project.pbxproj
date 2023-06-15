@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E67394AD2A32C5240022305A /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67394AC2A32C5240022305A /* ModuleBuilder.swift */; };
 		E6A0C5792698048B00DD9EF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A0C5782698048B00DD9EF7 /* AppDelegate.swift */; };
 		E6A0C57B2698048B00DD9EF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A0C57A2698048B00DD9EF7 /* SceneDelegate.swift */; };
 		E6A0C57D2698048B00DD9EF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A0C57C2698048B00DD9EF7 /* ViewController.swift */; };
@@ -25,10 +26,10 @@
 		E6A0C5AE269827AA00DD9EF7 /* CatalogueService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A0C5AD269827AA00DD9EF7 /* CatalogueService.swift */; };
 		E6A0C5B226982B6000DD9EF7 /* CatalogueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A0C5B026982B6000DD9EF7 /* CatalogueCell.swift */; };
 		E6A0C5B326982B6000DD9EF7 /* CatalogueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6A0C5B126982B6000DD9EF7 /* CatalogueCell.xib */; };
-		E6A0C5B626982CCD00DD9EF7 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A0C5B526982CCD00DD9EF7 /* ModuleBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E67394AC2A32C5240022305A /* ModuleBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
 		E6A0C5752698048B00DD9EF7 /* LearnVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6A0C5782698048B00DD9EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6A0C57A2698048B00DD9EF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,7 +50,6 @@
 		E6A0C5AD269827AA00DD9EF7 /* CatalogueService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueService.swift; sourceTree = "<group>"; };
 		E6A0C5B026982B6000DD9EF7 /* CatalogueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueCell.swift; sourceTree = "<group>"; };
 		E6A0C5B126982B6000DD9EF7 /* CatalogueCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CatalogueCell.xib; sourceTree = "<group>"; };
-		E6A0C5B526982CCD00DD9EF7 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ModuleBuilder.swift; path = ../../../../../../../../../ModuleBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,7 +221,7 @@
 		E6A0C5B426982CC200DD9EF7 /* Module Builder */ = {
 			isa = PBXGroup;
 			children = (
-				E6A0C5B526982CCD00DD9EF7 /* ModuleBuilder.swift */,
+				E67394AC2A32C5240022305A /* ModuleBuilder.swift */,
 			);
 			path = "Module Builder";
 			sourceTree = "<group>";
@@ -305,7 +305,7 @@
 				E6A0C57B2698048B00DD9EF7 /* SceneDelegate.swift in Sources */,
 				E6A0C59E2698056900DD9EF7 /* ViewControllerContract.swift in Sources */,
 				E6A0C5AE269827AA00DD9EF7 /* CatalogueService.swift in Sources */,
-				E6A0C5B626982CCD00DD9EF7 /* ModuleBuilder.swift in Sources */,
+				E67394AD2A32C5240022305A /* ModuleBuilder.swift in Sources */,
 				E6A0C5982698054100DD9EF7 /* ViewControllerPresenter.swift in Sources */,
 				E6A0C5B226982B6000DD9EF7 /* CatalogueCell.swift in Sources */,
 				E6A0C59C2698055E00DD9EF7 /* ViewControllerRouter.swift in Sources */,
